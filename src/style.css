@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Muli");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  width: 120px;
+  height: 45px;
+  transition: 0.6s ease;
+  border-radius: 10px;
+  border: none;
+  margin-right: 5px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.question-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 80%;
+  height: 200px;
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+
+.question-list {
+  font-family: "Muli", sans-serif;
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#submit-btn {
+  border: 3px solid black;
+}
